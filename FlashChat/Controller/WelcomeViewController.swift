@@ -21,7 +21,7 @@ class WelcomeViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         
         //typing Animation by CLTypingLabel pod
-        self.titleLabel.text =  "⚡️FlashChat"
+        self.titleLabel.text =  K.appName
         self.titleLabel.charInterval = 0.04
         
         
